@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-conat image =require("../public/assets/developer.png")
+const image =require("../public/assets/developer.png")
 
 export const About = () => {
     useEffect(()=>{
