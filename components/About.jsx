@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import image from "../public/assets/developer.png"
 
 export const About = () => {
     useEffect(()=>{
@@ -11,7 +12,7 @@ export const About = () => {
     <div id="About" className='About text-[#ecf0f3]'>
         <div className="containerCus sm:flex w-full justify-between mt-5 items-center">
             <div className='sm:w-[40%] ' data-aos="zoom-in">
-                <img src="../public/assets/developer.png" alt='/' width={400} height={100}/>
+                <img src={image} alt='/' width={400} height={100}/>
             </div>
             <div className='mx-auto sm:w-[60%]'>
                 <h1>About Me</h1>
