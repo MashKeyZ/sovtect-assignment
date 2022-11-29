@@ -29,7 +29,7 @@ export const Contact = () => {
     <div id="Contact" className='flex justify-center w-full my-10'>
         <div className=' mx-auto self-center flex justify-center w-full sm:w-[80%] '>
             <div  className='overlayed'>
-                <Image src='/../public/assets/send_.png'
+                <img src='/assets/send_.png'
                         alt='/'
                         width={500}
                         height={500}
