@@ -27,7 +27,7 @@ export const Navbar = () => {
     <div className='flex justify-center w-full h-[60px] '>
         <div className='flex items-center justify-between containerCus w-full h-full'>
             <div className=''>
-            <Image src='/../public/assets/logo.png'
+            <img src='/assets/logo.png'
                 alt='/'
                 width={100}
                 height={55}
