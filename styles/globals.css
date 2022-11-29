@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-[#ecf0f3] text-[#2f2937] tracking-wide
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    @apply font-bold
+  }
+  h1{
+    @apply text-2xl sm:text-5xl md:text-6xl font-extrabold sm:font-bold
+  }
+  h2 {
+    @apply text-2xl sm:text-4xl md:text-5xl text-[#2adcf3]
+  }
+  
+  li{
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#00B0FF] to-[#00BFA6]
+  }
+  
+ 
+}
+html{
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+.topnav::after{
+  content: '';
+  border-bottom: 3px solid #329ff1c5;
+  width: 15px;
+  display: block;
+  animation: fill1 1s;
+  animation-fill-mode: backwards;
+  transition: all ease-in-out 1s;
+}
+.topnav:hover::before{
+  content: '';
+  border-bottom: 3px solid #3095e2e8;
+  width: 15px;
+  display: block;
+  animation: cusfill 1s;
+  animation-fill-mode: forwards;
+  transition: all ease-in-out 1s;
+}
+.topnav::before{
+  content: '';
+  border-bottom: 3px solid #329ef14b;
+  width: 100%;
+  display: block;
+  animation: fill3 1s;
+  animation-fill-mode: forwards;
+  transition: all ease-in-out 1s;
+}
+.topnav:hover::after{
+  content: '';
+  border-bottom: 3px solid #329ff1c5;
+  width: 10px;
+  display: block;
+  animation: fill2 1s;
+  animation-fill-mode: forwards;
+  transition: all ease-in-out 1s;
+}
+
+
+@keyframes fill2 {
+  from {width: 10px;}
+  to {width: 100%; background-color: #329ef1f8;}
+}
+@keyframes fill3 {
+  from {width: 10px;}
+  to {width: 100%; background-color: #ecf0f3;}
+}
+@keyframes fill1 {
+  from {width: 75%;background-color: #329ff1c5;}
+  to {width: 15px; background-color: #329ff1c5;}
+}
+@keyframes cusfill{
+  from{width: 75%; background-color: #ecf0f3; border-bottom: 3px solid #329ef180;}
+  to{width: 15px;}
+}
+
+.social{
+  border: 1px solod #2c4355;
+  border-radius: 50%;
+  background-color: #83abc98c;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  animation: rotate 3s infinite;
+  animation-delay: 2s;
+}
+.social:hover{
+  border: 1px solod #2c4355;
+  border-radius: 50%;
+  background-color: #329ff1c5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  animation: rotate2 1s;
+}
+.scaled:hover{
+  animation: scale 1s;
+}
+
+
+@keyframes rotate{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+@keyframes rotate2{
+  from {transform: rotate(0deg);}
+  to {transform:  rotate(-360deg) ; }
+}
+
+@keyframes scale{
+  from {transform:  scale(1.0);}
+  to {transform:  scale(1.5) ; }
+}
+
+.bodyCont{
+  background-image: url("../public/assets/wave.png");
+  background-repeat: no-repeat;
+
+}
+.About{
+  background-image: url("../public/assets/back1.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+.projectBack{
+  background-image: url("../public/assets/skills.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+
+
+.svgCont{
+  position: absolute;
+  right: 0;
+}
+
+.wording{
+  position: absolute;
+  z-index: 2;
+}
+
+.containerCus {
+width: 100%;
+  padding-right: 1rem;
+      padding-left: 1rem;
+}
+@media (min-width: 640px) {
+  .containerCus {
+      max-width: 640px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .containerCus {
+      max-width: 768px;
+      padding-right: 3rem;
+      padding-left: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .containerCus {
+      max-width: 1024px;
+      padding-right: 5rem;
+      padding-left: 5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .containerCus {
+      max-width: 1280px;
+      padding-right: 5rem;
+      padding-left: 5rem;
+  }
+}
+@media (min-width: 1536px) {
+  .containerCus {
+      max-width: 1536px;
+      padding-right: 5rem;
+      padding-left: 5rem;
+  }
+}
+
+.Name::after{
+  content: '';
+  border-bottom: 5px solid #2adcf3;
+  border-radius: 50px;
+  width: 100%;
+  display: block;
+  animation: fillname 1s;
+  animation-fill-mode: forwards;
+  transition: all ease-in-out 1s;
+}
+
+@keyframes fillname {
+  from{width: 0px;  background-color: #2adcf3;}
+  to {width: 100%; background-color: #2adcf3;}
+}
+
+.scaledBtn{
+  animation: scaleBtn 1s infinite;
+}
+
+@keyframes scaleBtn {
+  from{}
+  to{transform: scale(1.1);}
+}
+
+.paragraph{
+  background-color: #2adcf33b;
+  border-radius: 12%;
+}
+.paragraph2{
+  background-color: #2ac4f356;
+  border-radius: 12%;
+}
+
+.skillsHeader{
+  background-color: #329ef1e7;
+}
+
+
+.fromLeft {
+  animation: fadeinLeft 1.5s ;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  left: 0px;
+  position: relative;
+  top:0px;
+}
+
+@keyframes fadeinLeft {
+  from {opacity: 0%; left:-100%;}
+  to {opacity: 100%; left:0px;}
+}
+
+.fromRight {
+  animation: fadeinRight 1.5s ;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  Right: 0px;
+  position: relative;
+  top:0px;
+}
+
+@keyframes fadeinRight {
+  from {opacity: 0%; Right:-100%;}
+  to {opacity: 100%; Right:0px;}
+}
+
+.Detailed{
+  content: '';
+  display: block;
+  border-left: 3px solid #329ef1e7;
+ 
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+.project{
+  border: 1px solid #2adcf3;
+
+}
+.overlayed{
+  position: absolute;
+  z-index: -1;
+  left: 100px;
+
+}
