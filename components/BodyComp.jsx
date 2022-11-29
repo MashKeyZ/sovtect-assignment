@@ -18,7 +18,7 @@ export const BodyComp = () => {
     <div id="Home" className='bodyCont w-full h-[91vh] flex items-center'>
         <div className='containerCus sm:mx-[3rem] w-full h-full flex items-center justify-between'>
             <div className='hidden sm:flex svgCont svgBackground items-center w-full sm:w-[85%] md:w-[50%] lg:w-[40%] h-[91vh]'>
-                <Image src="/../public/assets/dev2.png" 
+                <img src="/assets/dev2.png" 
                 alt='/'
                 width={550}
                 height={100}
