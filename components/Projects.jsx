@@ -27,7 +27,7 @@ export const Projects = () => {
             <div data-aos="flip-right" className='project fromRight sm:w-[70%] rounded-xl shadow-xl shadow-gray-500 p-3 sm:p-3  my-5'>
                 <h3 >PDF Scanner <span className='bg-gray-400 rounded-3xl p-1 font-semibold text-[#fdffff] ' >In Progress...</span></h3>
                 
-                <p className='font-semibold mt-1 border-t-2 border-t-[#2adcf3]'>Android applicion that allows users to scan documents, convert images to .pdf and View Pdf files</p>
+                <p className='font-semibold mt-1 border-t-2 border-t-[#2adcf3]'>Android applition that allows users to scan documents, convert images to .pdf and View Pdf files</p>
                 <div className='flex mt-3'>
                     <p data-aos="flip-up" className='bg-[#90b4ae9c] rounded-2xl p-2 font-semibold text-[#f1f5f5] shadow-xl shadow-gray-500 mr-3'>ReactNative</p>
                     <p data-aos="zoom-in" className='bg-[#90b4ae9c] rounded-2xl p-2 font-semibold text-[#f1f5f5] shadow-xl shadow-gray-500 mr-3'>Java</p>
