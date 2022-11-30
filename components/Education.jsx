@@ -20,7 +20,7 @@ export const Education = () => {
             </div>
         </div>
         </div>
-        <Image data-aos="zoom-in" className='fromRight' src={"/../public/assets/education.png"} alt='/' width={400} height={100}/>
+        <img data-aos="zoom-in" className='fromRight' src="/assets/education.png" alt='/' width={400} height={100}/>
     </div>
          
     </>
