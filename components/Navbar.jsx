@@ -80,7 +80,7 @@ export const Navbar = () => {
             }>
             <div className='w-full h-full'>
             <div className='flex justify-between'>
-            <Image src='/../public/assets/logo.png'
+            <img src='/assets/logo.png'
                 alt='/'
                 width={100}
                 height={55}
