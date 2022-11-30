@@ -22,7 +22,7 @@ export const About = () => {
                     I will be doing my final year next year(2023).
                     Throughout the years, I've been constantly exposing myself to different Software Development Technologies for both front-end and back-end Development.
                     As much as I enjoy developing the visuals that people can interact with in an application, 
-                    I Also love developing the back-end logic so I am undecided on which one to pick between the two because i really love doing both. 
+                    I Also love developing the back-end logic. I am undecided on which one to pick between the two because i really love doing both. 
                     <br/><br/></p>
                     <p className='paragraph2 mb-5 py-3 px-2 ' data-aos="zoom-in">
                     Becoming a Software Developer at Sovtech will play significant role in my career as a professional Software Developer.
