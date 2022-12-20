@@ -24,11 +24,7 @@ export const About = () => {
                     As much as I enjoy developing the visuals that people can interact with in an application, 
                     I Also love developing the back-end logic. I am undecided on which one to pick between the two because i really love doing both. 
                     <br/><br/></p>
-                    <p className='paragraph2 mb-5 py-3 px-2 ' data-aos="zoom-in">
-                    Becoming a Software Developer at Sovtech will play significant role in my career as a professional Software Developer.
-                    I am comfortable working with most of the Tech Stacks that are used at Sovtech. I relate to most of SovTech spex. 
-                    SovTech is a leading Software design and development company, It would be a great opportunity for me to be part of the driving forces that are keeping the company at the top of the game. 
-                </p>
+                    
             </div>
         </div>
     </div>
